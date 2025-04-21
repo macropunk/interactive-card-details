@@ -1,0 +1,54 @@
+.card-back-container {
+  width: 400px;
+  position: absolute;
+  height: 220px;
+  top: 75%;
+  left: 16%;
+  transform: translate(-16%, -75%);
+  z-index: -4;
+}
+.card-back-container .back-card-background {
+  width: 100%;
+  position: absolute;
+}
+.card-back-container .secure-number {
+  position: absolute;
+  color: white;
+  top: 45%;
+  right: 13%;
+  font-size: 15px;
+}
+
+@media (max-width: 957px) {
+  .card-back-container {
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 500px) {
+  .card-back-container {
+    width: 360px;
+    height: 200px;
+  }
+  .card-back-container .secure-number {
+    position: absolute;
+    color: white;
+    top: 44%;
+    right: 13%;
+    font-size: 15px;
+  }
+}
+@media (max-width: 425px) {
+  .card-back-container {
+    width: 320px;
+    height: 175px;
+  }
+  .card-back-container .secure-number {
+    position: absolute;
+    color: white;
+    top: 45%;
+    right: 13%;
+    font-size: 13px;
+  }
+}/*# sourceMappingURL=BackCard.css.map */
